@@ -18,4 +18,4 @@ The app has has these functionalities:
 
 I know i have a lot to learn and i'm not sure if you're looking for someone more experienced or skilled but trust me guys, if i start working for you, with a little of support from you during my time at work and long nights outside work practising, great things can be achieved.
 
-Thank you for your time anyway! 
+Thank you for your time anyway! # sonar_demo
