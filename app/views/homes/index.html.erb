@@ -1,13 +1,20 @@
-<div class="jumbotron">
-  <h2>Sonar is the best way to find reviews on the best homes on the planet!</h2>
-  <h3> Leave reviews and ratings for your favourite homes! </h3>
-</div>
+ <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Sonar</h1>
+        <p class="lead font-weight-normal">This app will help you collecting informations about your celebrities' favourites luxury homes.
+        You can store datas based on Name, Telefone number, Address (which will automaticall connect to the exact location on Google maps) and a reference 
+      website! Also don't forget to log in! ;) </p>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+
 <p id="notice"><%= notice %></p>
 
 <h1>Homes</h1>
 
 <table class="table table-hover table-condensed">
-  <thead>
+  <thead class="thead-dark">
     <tr>
       <th>Name</th>
       <th>Address</th>
@@ -34,6 +41,7 @@
 
 <br>
 
-<%= link_to 'New Home', new_home_path, class: "btn btn-link" %>
- <br>
+<%= link_to 'Add a new Home', new_home_path, class: "btn btn-light" %>
+ 
+<br>
 

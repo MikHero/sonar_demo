@@ -14,16 +14,6 @@
  *= require_self
  */
 
-.jumbotron {
-	background-color: #fdf8e1;
-	border: 1px solid #f2cb3b;
-} 
-
-h2 {
-	font-weight: bold;
-	color: #c41200;
-}
-
 
 .navbar-brand {
 	color:black;
@@ -37,7 +27,3 @@ h2 {
 	padding: 10px 120px;
 }
 
-image_tag {
-    width:540px; 
-    height: auto;
-}
