@@ -13,7 +13,7 @@ The app has has these functionalities:
  4) The address connects to Google Maps and automatically displays the location 
 
 
-- Was unable to deploy on heroku (never used it before) because i had to switch database to Postgres and even tho i was following all the steps https://devcenter.heroku.com/articles/getting-started-with-rails5#database something went wrong. You can see the app in action here: 
+- Was unable to deploy on heroku (never used it before) because i had to switch database to Postgres and even tho i was following all the steps https://devcenter.heroku.com/articles/getting-started-with-rails5#database something went wrong. You can see the app in action here: https://www.youtube.com/watch?v=V2UgUFAVTbA&feature=youtu.be
 
 
 I know i have a lot to learn and i'm not sure if you're looking for someone more experienced or skilled but trust me guys, if i start working for you, with a little of support from you during my time at work and long nights outside work practising, great things can be achieved.
