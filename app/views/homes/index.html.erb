@@ -1,3 +1,7 @@
+<div class="jumbotron">
+  <h2>Sonar is the best way to find reviews on the best homes on the planet!</h2>
+  <h3> Leave reviews and ratings for your favourite homes! </h3>
+</div>
 <p id="notice"><%= notice %></p>
 
 <h1>Homes</h1>
@@ -19,7 +23,7 @@
         <td><%= home.name %></td>
         <td><%= home.address %></td>
         <td><%= home.phone %></td>
-        <td><%= home.website %></td>
+        <td><%= link_to home.website, home.website %></td>
         <td><%= link_to 'Show', home, class: "btn btn-link" %></td>
         <td><%= link_to 'Edit', edit_home_path(home), class: "btn btn-link" %></td>
         <td><%= link_to 'Destroy', home, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-link" %></td>
@@ -31,3 +35,5 @@
 <br>
 
 <%= link_to 'New Home', new_home_path, class: "btn btn-link" %>
+ <br>
+<%= image_tag "https://s3.amazonaws.com/sonardemo2/house_PNG63.png" %>
